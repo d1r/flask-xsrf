@@ -1,23 +1,35 @@
 # flask-xsrf
 
-<div style="text-align:center">
-  <img title="flask-xsrf" src="https://cloud.githubusercontent.com/assets/407650/15816952/574714be-2b8a-11e6-801f-8aacc0a73620.png">
-</div>
-----------
-
 [flask](http://flask.pocoo.org) extension for defending against *cross-site request forgery attacks*
 [(xsrf/csrf)](https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)),
 by protecting flask request endpoints with uniquely generated tokens for each
 request.
 
 
+
+
+<div style="text-align:center">
+  <img title="flask-xsrf" src="https://cloud.githubusercontent.com/assets/407650/15816952/574714be-2b8a-11e6-801f-8aacc0a73620.png">
+</div>
+
+
 <br>
+<br>
+
+
 
 | FLASK | PYTHON | XSRF |
 | ----- | ------ | ---- |
 | [![flask](https://cloud.githubusercontent.com/assets/407650/15803510/2d4f594a-2a96-11e6-86e0-802592e17aca.png)](http://flask.pocoo.org) | [![python](https://cloud.githubusercontent.com/assets/407650/15803508/24d88944-2a96-11e6-9912-c696d9fc3912.png)](http://www.python.org) | [![csrf](https://cloud.githubusercontent.com/assets/407650/15803506/1c76e002-2a96-11e6-881e-969ef407839a.png)](https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)) |
 
 <br>
+<br>
+
+
+-----
+<br>
+<br>
+
 
 
 **BUILD STATUS**
@@ -33,10 +45,10 @@ request.
 
 
 
-<br>
 -----
 <br>
 <br>
+
 
 
 **REFERENCE / LINKS**
@@ -54,8 +66,11 @@ request.
 
 
 
-<br>
+
 -----
+<br>
+
+
 
 
 ### HOW IT WORKS
@@ -79,8 +94,12 @@ request.
 * **tested** - used internally @ google.
 
 
-<br>
+
+
 -----
+<br>
+
+
 
 
 ### USAGE
@@ -92,7 +111,10 @@ request.
 | ------   | -----     |
 | `2.7.6+` | `0.11.0+` |
 
+
 <br>
+<br>
+
 
 **INSTALLATION**
 
@@ -166,6 +188,8 @@ def test_post():
 ```
 
 <br>
+
+
 ##### TO SUMMARIZE
 
 that's all there is to it. please feel free to contact me <gn@gregorynicholas.com>
@@ -174,17 +198,24 @@ for any questions or help. however, creating a fork and submitting pull-requests
 are much preferred. contributions will be very much appreciated.
 
 
-<br>
+
+
 -----
+<br>
+
+
+
 
 ### CONTRIBUTING
 
 
 **STAR, FORK THIS PROJECT**
 
-| `github forks` | `github stars` |
+| `forks` | `stars` |
 | -------------- | -------------- |
 | [![github forks](https://img.shields.io/github/forks/gregorynicholas/flask-xsrf.svg?style=social&label=Fork&maxAge=2592000?style=flat-square)](https://github.com/gregorynicholas/flask-xsrf/fork) | [![github stars](https://img.shields.io/github/stars/gregorynicholas/flask-xsrf.svg?style=social&label=Star&maxAge=2592000?style=flat-square)](https://github.com/gregorynicholas/flask-xsrf/stargazers) |
+
+
 
 <br>
 
@@ -255,7 +286,11 @@ workon flask-xsrf-dev && pyenv rehash
 pyenv exec pip install --disable-pip-version-check -r .serpent/runtime-config/pip/requirements.txt && pyenv rehash
 ```
 
+
+
 <br>
+
+
 
 **DEVELOPMENT FLOW**
 
@@ -276,7 +311,14 @@ viola. that's pretty much all there is to the flow (for now..).
 
 
 <br>
+
+
 -----
+<br>
+
+
+
+
 
 #### TODOs
 
@@ -286,15 +328,18 @@ viola. that's pretty much all there is to the flow (for now..).
     * this might help ease implementation, as the client would not have to manually manage passing of tokens to server.
 
 
-<br>
 -----
+<br>
 
 
-#### COPYRIGHT
+
+
+#### COPYRIGHT, LICENSE
 
 the derived work is distributed under the [Apache License Version 2.0](http://opensource.org/licenses/Apache-2.0).
 
 
+
+
 <br>
------
 
